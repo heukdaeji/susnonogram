@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #dde2e4;
+    font-family: 'Akshar', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: bold;
+}
+
+
+#title {
+    text-align: center;
+    font-size: 50px;
+}
+
+body{
+    text-align: center;
+}
+
+button {
+    width: 40px;
+    height: 40px;
+    margin-top: -5px;
+    margin-bottom: -5px;
+    margin-left: -5px;
+    font-size: 20px;
+}
+
+.center-container{
+    top: 50%;
+    position: absolute;
+    width: 100%;
+}
+
+.center-container *{
+    margin: 0px 20px;
+}
+
+
+.menubtn{
+    width: max-content;
+    height: 2em;
+    font-size: 3rem;
+    border: 5px solid black;
+    padding: 0px 1em;
+    border-radius: 12px;
+    text-decoration: none; 
+    cursor: pointer;
+}
+
+.menubtn:hover {
+    background-color: rgb(152, 152, 152);
+}
+
+#playbtn {
+    color: red;
+}
+
+#playbtn:hover {
+    background-color: yellow;
+}
+
+#makebtn {
+    color: blue;
+}
+
+#makebtn:hover {
+    background-color: green;
+}
+
+
+#quitgame {
+    width: 100px;
+    height: 40px;
+    font-size: 20px;
+    border: 5px solid red;
+    margin: 50px;
+    top: 10px;
+    left: 80%;
+    border-radius: 12px;
+    text-decoration: none;
+    cursor: pointer;
+    position: absolute;
+    color: black;
+    background-color: white;
+}
+
+#quitgame:hover {
+    background-color: red;
+}
+
+.column {
+    position: relative;
+    left: -1.2em;
+    border-radius: 5px;
+    margin: 0.5px;
+    width: 34px;
+    height: 35px;
+}
+
+#none {
+    border: none;
+}
+
+.row {
+    position: absolute;
+    margin-left: -65px;
+    border-radius: 5px;
+}
+
+.OXbutton {
+    width: 100px;
+    height: 100px;
+    border-radius: 30px;
+    font-size: 60px;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#ox {
+    width: 220px;
+    border: 2px solid black;
+    height: 110px;
+    border-radius: 30px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: green;
+}
+
+#O {
+    background-color: red;
+}
+
+#X {
+    background-color: #dde2e4;
+}
+
+#col1row1 {
+    background: none;
+}
+
+#confirm {
+    width: 250px;
+    border-radius: 5px;
+    background-color: skyblue;
+    margin-top: 13px;
+}

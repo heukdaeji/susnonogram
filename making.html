@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nonogram playing</title>
+    <link rel="stylesheet" href="style.css"></link>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Akshar:wght@300&family=Titillium+Web&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1 id="title">Nonogram Game</h1>
+    <button id="quitgame">Left make</button>
+    <div id="column">
+        <button id="none"></button>
+        <button id="column1-1" class="column">e</button>
+        <button id="column2-1" class="column">e</button>
+        <button id="column3-1" class="column">e</button>
+        <button id="column4-1" class="column">e</button>
+        <button id="column5-1" class="column">e</button>
+        <button id="column6-1" class="column">e</button>
+        <button id="column7-1" class="column">e</button>
+        <button id="column8-1" class="column">e</button>
+        <button id="column9-1" class="column">e</button>
+        <button id="column10-1" class="column">e</button>
+    </div>
+    <div id="column">
+        <button id="none"></button>
+        <button id="column1-2" class="column">e</button>
+        <button id="column2-2" class="column">e</button>
+        <button id="column3-2" class="column">e</button>
+        <button id="column4-2" class="column">e</button>
+        <button id="column5-2" class="column">e</button>
+        <button id="column6-2" class="column">e</button>
+        <button id="column7-2" class="column">e</button>
+        <button id="column8-2" class="column">e</button>
+        <button id="column9-2" class="column">e</button>
+        <button id="column10-2" class="column">e</button>
+    </div>
+    <div id="column">
+        <button id="none"></button>
+        <button id="column1-3" class="column">e</button>
+        <button id="column2-3" class="column">e</button>
+        <button id="column3-3" class="column">e</button>
+        <button id="column4-3" class="column">e</button>
+        <button id="column5-3" class="column">e</button>
+        <button id="column6-3" class="column">e</button>
+        <button id="column7-3" class="column">e</button>
+        <button id="column8-3" class="column">e</button>
+        <button id="column9-3" class="column">e</button>
+        <button id="column10-3" class="column">e</button>
+    </div>
+    <div id="column">
+        <button id="none"></button>
+        <button id="column1-4" class="column">e</button>
+        <button id="column2-4" class="column">e</button>
+        <button id="column3-4" class="column">e</button>
+        <button id="column4-4" class="column">e</button>
+        <button id="column5-4" class="column">e</button>
+        <button id="column6-4" class="column">e</button>
+        <button id="column7-4" class="column">e</button>
+        <button id="column8-4" class="column">e</button>
+        <button id="column9-4" class="column">e</button>
+        <button id="column10-4" class="column">e</button>
+    </div>
+    <div id="column">
+        <button id="none"></button>
+        <button id="column1" class="column">e</button>
+        <button id="column2" class="column">e</button>
+        <button id="column3" class="column">e</button>
+        <button id="column4" class="column">e</button>
+        <button id="column5" class="column">e</button>
+        <button id="column6" class="column">e</button>
+        <button id="column7" class="column">e</button>
+        <button id="column8" class="column">e</button>
+        <button id="column9" class="column">e</button>
+        <button id="column10" class="column">e</button>
+    </div>
+    <div id="board">
+        <div id="row1">
+            <button id="row1" class="row">e</button>
+            <button id="col1row1" class="board"></button>
+            <button id="col2row1"></button>
+            <button id="col3row1"></button>
+            <button id="col4row1"></button>
+            <button id="col5row1"></button>
+            <button id="col6row1"></button>
+            <button id="col7row1"></button>
+            <button id="col8row1"></button>
+            <button id="col9row1"></button>
+            <button id="col10row1"></button>
+        </div>
+        <div id="row2">
+            <button id="row2" class="row">e</button>
+            <button id="col1row2"></button>
+            <button id="col2row2"></button>
+            <button id="col3row2"></button>
+            <button id="col4row2"></button>
+            <button id="col5row2"></button>
+            <button id="col6row2"></button>
+            <button id="col7row2"></button>
+            <button id="col8row2"></button>
+            <button id="col9row2"></button>
+            <button id="col10row2"></button>
+        </div>
+        <div id="row3">
+            <button id="row3" class="row">e</button>
+            <button id="col1row3"></button>
+            <button id="col2row3"></button>
+            <button id="col3row3"></button>
+            <button id="col4row3"></button>
+            <button id="col5row3"></button>
+            <button id="col6row3"></button>
+            <button id="col7row3"></button>
+            <button id="col8row3"></button>
+            <button id="col9row3"></button>
+            <button id="col10row3"></button>
+        </div>
+        <div id="row4">
+            <button id="row4" class="row">e</button>
+            <button id="col1row4"></button>
+            <button id="col2row4"></button>
+            <button id="col3row4"></button>
+            <button id="col4row4"></button>
+            <button id="col5row4"></button>
+            <button id="col6row4"></button>
+            <button id="col7row4"></button>
+            <button id="col8row4"></button>
+            <button id="col9row4"></button>
+            <button id="col10row4"></button>
+        </div>
+        <div id="row5">
+            <button id="row5" class="row">e</button>
+            <button id="col1row5"></button>
+            <button id="col2row5"></button>
+            <button id="col3row5"></button>
+            <button id="col4row5"></button>
+            <button id="col5row5"></button>
+            <button id="col6row5"></button>
+            <button id="col7row5"></button>
+            <button id="col8row5"></button>
+            <button id="col9row5"></button>
+            <button id="col10row5"></button>
+        </div>
+        <div id="row6">
+            <button id="row6" class="row">e</button>
+            <button id="col1row6"></button>
+            <button id="col2row6"></button>
+            <button id="col3row6"></button>
+            <button id="col4row6"></button>
+            <button id="col5row6"></button>
+            <button id="col6row6"></button>
+            <button id="col7row6"></button>
+            <button id="col8row6"></button>
+            <button id="col9row6"></button>
+            <button id="col10row6"></button>
+        </div>
+        <div id="row7">
+            <button id="row7" class="row">e</button>
+            <button id="col1row7"></button>
+            <button id="col2row7"></button>
+            <button id="col3row7"></button>
+            <button id="col4row7"></button>
+            <button id="col5row7"></button>
+            <button id="col6row7"></button>
+            <button id="col7row7"></button>
+            <button id="col8row7"></button>
+            <button id="col9row7"></button>
+            <button id="col10row7"></button>
+        </div>
+        <div id="row8">
+            <button id="row8" class="row">e</button>
+            <button id="col1row8"></button>
+            <button id="col2row8"></button>
+            <button id="col3row8"></button>
+            <button id="col4row8"></button>
+            <button id="col5row8"></button>
+            <button id="col6row8"></button>
+            <button id="col7row8"></button>
+            <button id="col8row8"></button>
+            <button id="col9row8"></button>
+            <button id="col10row8"></button>
+        </div>
+        <div id="row9">
+            <button id="row9" class="row">e</button>
+            <button id="col1row9"></button>
+            <button id="col2row9"></button>
+            <button id="col3row9"></button>
+            <button id="col4row9"></button>
+            <button id="col5row9"></button>
+            <button id="col6row9"></button>
+            <button id="col7row9"></button>
+            <button id="col8row9"></button>
+            <button id="col9row9"></button>
+            <button id="col10row9"></button>
+        </div>
+        <div id="row10">
+            <button id="row10" class="row">e</button>
+            <button id="col1row10"></button>
+            <button id="col2row10"></button>
+            <button id="col3row10"></button>
+            <button id="col4row10"></button>
+            <button id="col5row10"></button>
+            <button id="col6row10"></button>
+            <button id="col7row10"></button>
+            <button id="col8row10"></button>
+            <button id="col9row10"></button>
+            <button id="col10row10"></button>
+        </div>
+    </div>
+    <div id="ox">
+        <button id="O" class="OXbutton">O</button>
+        <button id="X" class="OXbutton">Del</button>
+    </div>
+    <button id="confirm">Confirm</button>
+    <script src="make.js"></script>
+</body>
+</html>
